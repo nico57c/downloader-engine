@@ -1,0 +1,21 @@
+{
+  "name": "downloader-engine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "nico57c",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "flow-remove-types src/main/nodejs/ -d target",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.114.0",
+    "flow-remove-types": "^2.114.0"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}

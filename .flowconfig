@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/.*
+.*/target/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[lints]
+
+[options]
+all=true
+
+[strict]
